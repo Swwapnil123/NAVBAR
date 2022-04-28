@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: rgb(248, 246, 246);
+  }
+  /* Navbar related css */
+  
+  .NAVBAR{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1%;
+    box-shadow: 2px 2px 5px 5px rgb(235, 235, 235);
+    background-color: gray;
+    width: 95%;
+    border-radius: 10px;
+    margin: auto;
+
+  }
+  .LOGO{
+       padding-right: 500px;
+       color: white;
+
+  }
+  
+  .NAVBAR > div {
+    display: flex;
+    list-style: none;
+    
+   
+  }
+  .text{
+    width: 15%; 
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+  }
+  .USER{
+    width: 10%; 
+
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+
+  }
+  .USER>h3{
+    margin-left: 20px;
+  
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    /* margin-left: 80px; */
+    gap: 10px;
+  } 
